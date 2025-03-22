@@ -1,4 +1,4 @@
-Step 1 : Switch phone to fastboot and connect to Windows PC
+Step 1 : Switch phone to fastboot and connect to Windows PC <br>
 Step 2 : Open Device Manager and ensure it looks like this <br>
 <img src="photo_6264642171734968414_y.jpg" alt="Device Manager" width="200"> 
 Step 3 : Download drivers : [Download]("Fastboot driver-20220730T050907Z-001.zip") and extract <br>
