@@ -20,13 +20,13 @@ echo "Repository resynced."
 echo "Cloning device repositories..."
 git clone https://github.com/LineageOS/android_device_xiaomi_ginkgo -b lineage-20 device/xiaomi/ginkgo
 git clone https://github.com/Wrdn28/vendor_xiaomi_ginkgo -b lineage-20 vendor/xiaomi/ginkgo
-git clone https://github.com/kutemeikito/android_kernel_xiaomi_ginkgo/tree/fourteen/main kernel/xiaomi/ginkgo
+git clone https://github.com/kutemeikito/android_kernel_xiaomi_ginkgo.git -b fourteen/main kernel/xiaomi/ginkgo
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
 echo "Device repositories cloned."
 
 # 5. Set environment variables
 echo "Setting environment variables..."
-export BUILD_USERNAME=Dipanshu
+export BUILD_USERNAME=Dipanshu247
 export BUILD_HOSTNAME=crave
 export TZ="Asia/New Delhi"
 echo "Environment variables set."
