@@ -24,6 +24,9 @@ git clone https://github.com/kutemeikito/android_kernel_xiaomi_ginkgo.git -b fou
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
 echo "Device repositories cloned."
 
+git clone https://github.com/LineageOS/android_device_xiaomi_sm6125-common.git device/xiaomi/sm6125-common/
+
+
 # 5. Set environment variables
 echo "Setting environment variables..."
 export BUILD_USERNAME=Dipanshu247
