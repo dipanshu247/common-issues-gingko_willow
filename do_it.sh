@@ -15,7 +15,7 @@ echo "Repository resynced."
 echo "Cloning device repositories..."
 git clone https://github.com/LineageOS/android_device_xiaomi_ginkgo -b lineage-20 device/xiaomi/ginkgo
 git clone https://github.com/Wrdn28/vendor_xiaomi_ginkgo -b lineage-20 vendor/xiaomi/ginkgo
-git clone https://github.com/kutemeikito/android_kernel_xiaomi_ginkgo.git -b fourteen/main kernel/xiaomi/ginkgo
+git clone https://github.com/kutemeikito/android_kernel_xiaomi_ginkgo.git -b thirteen/main kernel/xiaomi/ginkgo
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
 echo "Device repositories cloned."
 
