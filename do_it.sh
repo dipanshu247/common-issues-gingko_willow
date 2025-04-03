@@ -6,11 +6,6 @@ rm -rf .repo/local_manifests
 rm -rf {device,vendor,kernel,hardware}/xiaomi
 echo "Old files cleaned."
 
-# 2. Initialize the repository
-echo "Initializing repository..."
-repo init --depth=1 --no-repo-verify -u https://github.com/LineageOS/android -b lineage-20 -g default,-mips,-darwin,-notdefault
-echo "Repository initialized."
-
 # 3. Resync the repository
 echo "Resyncing repository..."
 /opt/crave/resync.sh
