@@ -1,3 +1,4 @@
+# 5. Set environment variables
 echo "Setting environment variables..."
 export BUILD_USERNAME=Dipanshu247
 export BUILD_HOSTNAME=crave
