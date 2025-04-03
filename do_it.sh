@@ -6,11 +6,6 @@ rm -rf .repo/local_manifests
 rm -rf {device,vendor,kernel,hardware}/xiaomi
 echo "Old files cleaned."
 
-# 3. Resync the repository
-echo "Resyncing repository..."
-/opt/crave/resync.sh
-echo "Repository resynced."
-
 # 4. Clone device-specific repositories
 echo "Cloning device repositories..."
 git clone https://github.com/LineageOS/android_device_xiaomi_ginkgo -b lineage-20 device/xiaomi/ginkgo
