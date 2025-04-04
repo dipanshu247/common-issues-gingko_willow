@@ -14,7 +14,7 @@ echo "Cloning device repositories..."
 git clone https://github.com/LineageOS/android_device_xiaomi_ginkgo -b lineage-20 device/xiaomi/ginkgo/
 git clone https://github.com/LineageOS/android_device_xiaomi_sm6125-common.git device/xiaomi/sm6125-common/
 
-git clone https://github.com/Wrdn28/vendor_xiaomi_ginkgo -b lineage-20 vendor/xiaomi/ginkgo/
+# git clone https://github.com/Wrdn28/vendor_xiaomi_ginkgo -b lineage-20 vendor/xiaomi/ginkgo/
 git clone https://github.com/sailfish-ginkgo/vendor_sm6125-common vendor/xiaomi/sm6125-common/
 
 git clone https://github.com/kutemeikito/android_kernel_xiaomi_ginkgo.git -b thirteen/main kernel/xiaomi/ginkgo/
@@ -23,6 +23,8 @@ git clone https://github.com/LineageOS/android_kernel_xiaomi_sm6125 kernel/xiaom
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi/
 echo "Device repositories cloned."
 
+
+rm -rf 
 
 
 # 5. Set environment variables
