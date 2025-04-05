@@ -11,21 +11,14 @@ repo init --depth=1 --no-repo-verify -u https://github.com/LineageOS/android -b 
 
 # 4. Clone device-specific repositories
 echo "Cloning device repositories..."
-git clone https://github.com/LineageOS/android_device_xiaomi_ginkgo -b lineage-20 device/xiaomi/ginkgo/
-git clone https://github.com/LineageOS/android_device_xiaomi_sm6125-common.git device/xiaomi/sm6125-common/
+git clone https://github.com/ArrowOS-Devices/android_device_xiaomi_ginkgo device/xiaomi/ginkgo/
 
-# git clone https://github.com/Wrdn28/vendor_xiaomi_ginkgo -b lineage-20 vendor/xiaomi/ginkgo/
-git clone https://github.com/sailfish-ginkgo/vendor_sm6125-common vendor/xiaomi/sm6125-common/
+git clone https://github.com/ArrowOS-Devices/android_vendor_xiaomi_ginkgo vendor/xiaomi/ginkgo
 
-git clone https://github.com/kutemeikito/android_kernel_xiaomi_ginkgo.git -b thirteen/main kernel/xiaomi/ginkgo/
-git clone https://github.com/LineageOS/android_kernel_xiaomi_sm6125 kernel/xiaomi/sm6125/
+git clone https://github.com/ArrowOS-Devices/android_kernel_xiaomi_ginkgo kernel/xiaomi/ginkgo/
 
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi/
 echo "Device repositories cloned."
-
-
-rm -rf 
-
 
 # 5. Set environment variables
 echo "Setting environment variables..."
